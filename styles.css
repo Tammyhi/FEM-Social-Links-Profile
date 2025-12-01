@@ -78,6 +78,7 @@ header{
 
 header > p {
     color: var(--green);
+    font-weight: bold;
 }
 
 ul {
@@ -92,6 +93,7 @@ li {
     border-radius: var(--spacing-100);
     text-align: center; /* ignored by flex containers */
     padding: 1rem;
+    font-weight: bold;
 }
 
 li:hover {
