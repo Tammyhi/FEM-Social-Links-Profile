@@ -59,6 +59,7 @@ body {
 main {
     width: 384px;
     height: 611px;
+    max-width: 90vw;
 
     padding: var(--spacing-500);
     gap: var(--spacing-300);
@@ -72,8 +73,31 @@ main {
     color: var(--white);
 }
 
+header{
+    text-align: center;
+}
+
+header > p {
+    color: var(--green);
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-200);
+    width: 100%;
+}
+
+li {
+    background-color: var(--grey-700);
+    border-radius: var(--spacing-100);
+    text-align: center; /* ignored by flex containers */
+    padding: 1rem;
+}
+
 img {
-    width: 20vw;
+    width: 88px;
+    border-radius: 50%;
 }
 
 h1 {
