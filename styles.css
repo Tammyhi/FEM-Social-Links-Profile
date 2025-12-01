@@ -13,6 +13,11 @@ img {
     max-width: 100%;
 }
 
+ul {
+    list-style: none;
+    padding-inline-start: 0;
+}
+
 /* DESIGN SYSTEM */
 @font-face {
     font-family: Inter;
@@ -43,14 +48,35 @@ body {
 }
 
 /* STYLING */
-main {
+body {
+    background-color: var(--grey-900);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
+}
+
+main {
+    width: 384px;
+    height: 611px;
+
+    padding: var(--spacing-500);
+    gap: var(--spacing-300);
+
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center; /* cross-axis is horizontal */
+
+    background-color: var(--grey-800);
+    color: var(--white);
 }
 
 img {
     width: 20vw;
 }
+
+h1 {
+    font-size: var(--heading-font-size);
+}
+
