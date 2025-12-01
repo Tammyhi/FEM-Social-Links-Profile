@@ -22,6 +22,7 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 - Live Site [URL](https://your-live-site-url.com)
 
 
-### What I learned
-- How to use font-face rule to add in font files
-- The 'text-align' property is only for block elements
+### I learned
+- to use the font-face rule to add in font files
+- that the 'text-align' property is only for block elements
+- to use the tabindex attribute to make html elements keyboard accessible
