@@ -33,7 +33,6 @@ ul {
     --grey-800: #1f1f1f;
     --grey-700: #333333;
     --green: #c4f82a;
-    --white: #ffffff;
 
     --spacing-50: 4px;
     --spacing-100: 8px;
@@ -70,7 +69,7 @@ main {
     align-items: center; /* cross-axis is horizontal */
 
     background-color: var(--grey-800);
-    color: var(--white);
+    color: white;
 }
 
 header{
@@ -93,6 +92,11 @@ li {
     border-radius: var(--spacing-100);
     text-align: center; /* ignored by flex containers */
     padding: 1rem;
+}
+
+li:hover {
+    background-color: var(--green);
+    color: black;
 }
 
 img {
