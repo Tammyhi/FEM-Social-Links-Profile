@@ -14,7 +14,33 @@ img {
 }
 
 /* DESIGN SYSTEM */
+@font-face {
+    font-family: Inter;
+    src: url('./assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+}
 
+:root { /* specificity higher than html element */
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    --heading-font-size: 1.7rem;
+
+    --grey-900: #141414;
+    --grey-800: #1f1f1f;
+    --grey-700: #333333;
+    --green: #c4f82a;
+    --white: #ffffff;
+
+    --spacing-50: 4px;
+    --spacing-100: 8px;
+    --spacing-150: 12px;
+    --spacing-200: 16px;
+    --spacing-300: 24px;
+    --spacing-500: 40px;
+}
+
+body {
+    line-height: 1.5;
+}
 
 /* STYLING */
 main {
